@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <style>
+    body{
+    font-family: 'Lora', serif;
+    }
+    </style>
+    
+    <title>Country details generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h4 class="text-center my-5">Country details generator</h4>
+      <form  id="generate-country-details">
+        <div class="row no-gutters">
+          <div class="col-8">
+            <select class="form-control" id="country-name">
+              <option value="" selected disabled hidden>Choose Country</option>
+              <!-- here the options will add -->
+            </select>
+          </div>
+          <div class="col-4 pl-2">
+            <button class="btn btn-success w-100" type="submit">Generate details</button>
+          </div>
+        </div>
+      </form>
+      <div class="alert alert-primary mt-3 mb-5" role="alert">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus incidunt doloremque vel dolorum odio distinctio, sequi quod. Maiores aliquam voluptatibus asperiores rem illo quisquam, accusantium accusamus amet suscipit. Magni, maxime?
+      </div>
+      <p class="text-center text-muted pt-5 mt-5">using loading.io api</p>
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
